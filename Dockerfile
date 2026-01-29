@@ -1,4 +1,4 @@
-FROM node:14-alpine3.17
+FROM node:18-alpine3.18
 LABEL org.opencontainers.image.authors="info@pisignage.com"
 
 RUN apk update && apk add --no-cache bash git ffmpeg imagemagick
